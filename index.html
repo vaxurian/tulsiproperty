@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulsi Property | Trusted Real Estate Advisory Lucknow</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        :root {
+            --brand-emerald: #0B241E;
+            --brand-gold: #C5A059;
+            --brand-neutral: #F1F2F0;
+            --brand-white: #FFFFFF;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: var(--brand-white);
+            color: var(--brand-emerald);
+            scroll-behavior: smooth;
+            font-size: 14px; /* Reduced base font size for premium feel */
+        }
+        h1, h2, h3, .font-serif {
+            font-family: 'Playfair Display', serif;
+        }
+        .hero-gradient {
+            background: linear-gradient(rgba(11, 36, 30, 0.9), rgba(11, 36, 30, 0.98)), url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=2000');
+            background-size: cover;
+            background-position: center;
+        }
+        .glass-nav {
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+        }
+        .rounded-premium {
+            border-radius: 2rem;
+        }
+        .btn-gold-glow:hover {
+            box-shadow: 0 0 25px rgba(197, 160, 89, 0.3);
+        }
+        .section-spacing {
+            padding-top: 8rem;
+            padding-bottom: 8rem;
+        }
+        .process-line::after {
+            content: '';
+            position: absolute;
+            top: 2rem;
+            left: 50%;
+            width: 80%;
+            height: 1px;
+            background: #e5e7eb;
+            z-index: 0;
+        }
+    </style>
+</head>
+<body class="antialiased">
+
+    <!-- Floating Navbar -->
+    <div class="fixed w-full z-50 px-4 md:px-8 top-6">
+        <nav class="max-w-6xl mx-auto glass-nav rounded-full border border-gray-100 shadow-[0_8px_30px_rgb(0,0,0,0.04)] px-6 md:px-10 h-16 flex items-center justify-between">
+            <div class="flex flex-col">
+                <span class="text-lg font-bold tracking-tighter text-brand-emerald uppercase leading-none">Tulsi Property</span>
+                <span class="text-[8px] uppercase tracking-[0.3em] text-brand-gold font-bold mt-1">Real Estate Advisory</span>
+            </div>
+            <div class="hidden lg:flex items-center space-x-8 text-[10px] font-bold uppercase tracking-widest text-brand-emerald/60">
+                <a href="#services" class="hover:text-brand-gold transition-colors">Services</a>
+                <a href="#process" class="hover:text-brand-gold transition-colors">Our Process</a>
+                <a href="#insights" class="hover:text-brand-gold transition-colors">Market Insights</a>
+                <a href="#about" class="hover:text-brand-gold transition-colors">About</a>
+            </div>
+            <a href="tel:+910000000000" class="bg-brand-emerald text-white px-6 py-2.5 rounded-full text-[10px] font-bold tracking-widest hover:bg-brand-gold transition-all flex items-center gap-2">
+                <i data-lucide="phone-call" class="w-3 h-3"></i> CONSULT
+            </a>
+        </nav>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center justify-center pt-24 pb-20 hero-gradient text-white px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <div class="inline-flex items-center gap-3 bg-white/5 backdrop-blur-md px-4 py-1.5 rounded-full mb-8 border border-white/10">
+                <span class="flex gap-0.5">
+                    <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                    <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                    <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                    <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                    <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                </span>
+                <span class="text-[9px] font-bold tracking-[0.3em] uppercase opacity-80">The Gold Standard of Lucknow Realty</span>
+            </div>
+            <h1 class="text-4xl md:text-7xl mb-6 leading-[1.1] font-semibold">Strategic Real Estate <br><span class="text-brand-gold font-serif italic">Advisory</span> for the Modern Era.</h1>
+            <p class="text-base md:text-xl text-gray-400 mb-10 max-w-2xl mx-auto font-light leading-relaxed">
+                We facilitate high-value property acquisitions in Lucknow through data-driven insights and rigorous verification protocols.
+            </p>
+            <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="tel:+910000000000" class="w-full sm:w-auto bg-brand-gold text-white px-10 py-4 rounded-full font-bold text-[10px] uppercase tracking-[0.2em] btn-gold-glow transition-all">
+                    Schedule Consultation
+                </a>
+                <a href="#process" class="w-full sm:w-auto border border-white/20 text-white px-10 py-4 rounded-full font-bold text-[10px] uppercase tracking-[0.2em] hover:bg-white/10 transition-all">
+                    Explore Our Process
+                </a>
+            </div>
+        </div>
+        <div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-30">
+            <i data-lucide="chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- Global Partners Strip -->
+    <div class="bg-white py-12 px-6 border-b border-gray-50">
+        <div class="max-w-6xl mx-auto flex flex-wrap justify-center md:justify-between gap-8 opacity-40 grayscale items-center">
+            <span class="text-lg font-bold tracking-tighter">TRUSTED PARTNER</span>
+            <span class="text-lg font-bold tracking-tighter">ESTATE AUTHORITY</span>
+            <span class="text-lg font-bold tracking-tighter">LUCKNOW PRIME</span>
+            <span class="text-lg font-bold tracking-tighter">VERIFIED PORTFOLIO</span>
+        </div>
+    </div>
+
+    <!-- Services Grid -->
+    <section id="services" class="section-spacing px-6">
+        <div class="max-w-6xl mx-auto text-center">
+            <span class="text-brand-gold text-[10px] font-bold uppercase tracking-[0.5em] block mb-4">Advisory Verticals</span>
+            <h2 class="text-3xl md:text-5xl mb-16 leading-tight">Professional Property Management</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="p-10 bg-white rounded-premium border border-gray-100 hover:border-brand-gold/20 hover:shadow-2xl transition-all group text-center">
+                    <div class="w-14 h-14 bg-brand-neutral rounded-2xl flex items-center justify-center mb-8 mx-auto group-hover:bg-brand-gold group-hover:text-white transition-all">
+                        <i data-lucide="landmark" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl mb-4">Capital Advisory</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Strategic deployment of capital into high-appreciation residential land and luxury apartments.</p>
+                </div>
+                <div class="p-10 bg-white rounded-premium border border-gray-100 hover:border-brand-gold/20 hover:shadow-2xl transition-all group text-center">
+                    <div class="w-14 h-14 bg-brand-neutral rounded-2xl flex items-center justify-center mb-8 mx-auto group-hover:bg-brand-gold group-hover:text-white transition-all">
+                        <i data-lucide="building" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl mb-4">Commercial Strategy</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">End-to-end consulting for retail spaces, corporate offices, and warehouse logistics hubs.</p>
+                </div>
+                <div class="p-10 bg-white rounded-premium border border-gray-100 hover:border-brand-gold/20 hover:shadow-2xl transition-all group text-center">
+                    <div class="w-14 h-14 bg-brand-neutral rounded-2xl flex items-center justify-center mb-8 mx-auto group-hover:bg-brand-gold group-hover:text-white transition-all">
+                        <i data-lucide="shield" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl mb-4">Title Verification</h3>
+                    <p class="text-gray-500 text-sm leading-relaxed">Rigorous legal vetting of property titles and government approvals for worry-free ownership.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW FEATURE: The Process Section -->
+    <section id="process" class="section-spacing px-6 bg-[#FAFAFA]">
+        <div class="max-w-6xl mx-auto">
+            <div class="text-center mb-20">
+                <span class="text-brand-gold text-[10px] font-bold uppercase tracking-[0.5em] block mb-4">Methodology</span>
+                <h2 class="text-3xl md:text-5xl mb-6">How We Protect Your Interests</h2>
+                <p class="text-gray-500 max-w-xl mx-auto">Our four-step institutional-grade process ensures every property transaction meets the Tulsi standard.</p>
+            </div>
+            <div class="relative grid md:grid-cols-4 gap-8 process-line">
+                <div class="relative z-10 text-center">
+                    <div class="w-12 h-12 bg-white border border-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm font-bold text-brand-gold">01</div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-3">Discovery</h4>
+                    <p class="text-[13px] text-gray-500 px-4">Detailed analysis of your investment goals and risk appetite.</p>
+                </div>
+                <div class="relative z-10 text-center">
+                    <div class="w-12 h-12 bg-white border border-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm font-bold text-brand-gold">02</div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-3">Vetting</h4>
+                    <p class="text-[13px] text-gray-500 px-4">On-ground physical survey and 3-tier legal document audit.</p>
+                </div>
+                <div class="relative z-10 text-center">
+                    <div class="w-12 h-12 bg-white border border-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm font-bold text-brand-gold">03</div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-3">Negotiation</h4>
+                    <p class="text-[13px] text-gray-500 px-4">Securing the most competitive market rates through local authority.</p>
+                </div>
+                <div class="relative z-10 text-center">
+                    <div class="w-12 h-12 bg-white border border-gray-100 rounded-full flex items-center justify-center mx-auto mb-6 shadow-sm font-bold text-brand-gold">04</div>
+                    <h4 class="text-sm font-bold uppercase tracking-widest mb-3">Settlement</h4>
+                    <p class="text-[13px] text-gray-500 px-4">Supervised registry and seamless possession transfer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Authority Showcase -->
+    <section class="py-24 px-6">
+        <div class="max-w-6xl mx-auto bg-brand-emerald rounded-premium overflow-hidden flex flex-col lg:flex-row items-center">
+            <div class="lg:w-1/2 p-12 lg:p-20 text-white">
+                <span class="text-brand-gold text-[10px] font-bold uppercase tracking-[0.5em] block mb-6">Expertise</span>
+                <h2 class="text-3xl md:text-5xl mb-8 leading-tight">Mastery Over Lucknow’s Prime Corridors</h2>
+                <div class="space-y-6">
+                    <div class="flex items-center gap-4 border-b border-white/5 pb-4">
+                        <span class="text-brand-gold font-bold">01</span>
+                        <p class="text-[13px] font-medium tracking-widest uppercase">Gomti Nagar & Extensions</p>
+                    </div>
+                    <div class="flex items-center gap-4 border-b border-white/5 pb-4">
+                        <span class="text-brand-gold font-bold">02</span>
+                        <p class="text-[13px] font-medium tracking-widest uppercase">Sultanpur Road Corridor</p>
+                    </div>
+                    <div class="flex items-center gap-4 border-b border-white/5 pb-4">
+                        <span class="text-brand-gold font-bold">03</span>
+                        <p class="text-[13px] font-medium tracking-widest uppercase">Raebareli Road Development</p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/2 h-full min-h-[400px] w-full relative">
+                <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&q=80&w=1000" class="absolute inset-0 w-full h-full object-cover grayscale brightness-75">
+            </div>
+        </div>
+    </section>
+
+    <!-- NEW FEATURE: Market Insights -->
+    <section id="insights" class="section-spacing px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-4">
+                <div class="text-left">
+                    <span class="text-brand-gold text-[10px] font-bold uppercase tracking-[0.5em] block mb-4">Investment Insights</span>
+                    <h2 class="text-3xl md:text-5xl">Market Analysis 2024</h2>
+                </div>
+                <div class="text-right">
+                    <a href="#" class="text-[10px] font-bold uppercase tracking-widest text-brand-gold border-b border-brand-gold pb-1">View Full Report</a>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-2 gap-10">
+                <div class="flex gap-6 items-start">
+                    <span class="text-3xl font-serif text-gray-200">01</span>
+                    <div>
+                        <h4 class="text-lg mb-2">The Gomti Nagar Expansion</h4>
+                        <p class="text-gray-500 text-sm leading-relaxed">Why the extension continues to be the primary hub for luxury capital appreciation in 2024.</p>
+                    </div>
+                </div>
+                <div class="flex gap-6 items-start">
+                    <span class="text-3xl font-serif text-gray-200">02</span>
+                    <div>
+                        <h4 class="text-lg mb-2">Infrastructure Catalysts</h4>
+                        <p class="text-gray-500 text-sm leading-relaxed">How upcoming ring roads and transit hubs are reshaping property valuations in South Lucknow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section-spacing px-6 bg-brand-neutral/30">
+        <div class="max-w-4xl mx-auto text-center">
+            <span class="text-brand-gold text-[10px] font-bold uppercase tracking-[0.5em] block mb-10">Founder's Note</span>
+            <div class="w-20 h-20 rounded-full bg-gray-200 mx-auto mb-8 overflow-hidden">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&q=80&w=200" alt="Founder" class="grayscale">
+            </div>
+            <p class="text-xl md:text-3xl font-serif italic text-brand-emerald mb-10 leading-relaxed">
+                "Real estate isn't just about square footage; it's about building lasting legacies. At Tulsi, we prioritize your long-term security over short-term sales."
+            </p>
+            <div class="flex flex-col items-center">
+                <span class="text-xs font-bold tracking-widest uppercase">The Advisory Board</span>
+                <span class="text-[10px] text-brand-gold uppercase tracking-[0.3em] mt-2">Tulsi Property Group</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof -->
+    <section class="section-spacing px-6">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-10 items-center">
+                <div>
+                    <span class="text-brand-gold text-[10px] font-bold uppercase tracking-[0.5em] block mb-4">Testimonials</span>
+                    <h2 class="text-3xl md:text-5xl mb-8 leading-tight italic">Verified Client Experiences</h2>
+                    <p class="text-gray-500 mb-8">We have assisted 14+ families and 4 corporate firms in Lucknow to secure properties worth over ₹50 Cr in the last fiscal year.</p>
+                    <div class="flex items-center gap-2">
+                        <span class="text-2xl font-bold">4.7</span>
+                        <div class="flex gap-0.5">
+                            <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                            <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                            <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                            <i data-lucide="star" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                            <i data-lucide="star-half" class="w-3 h-3 fill-brand-gold text-brand-gold"></i>
+                        </div>
+                        <span class="text-[10px] uppercase font-bold text-gray-400 tracking-widest ml-2">Google Reviews</span>
+                    </div>
+                </div>
+                <div class="space-y-6">
+                    <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm italic text-sm text-gray-600">
+                        "The level of transparency Tulsi Property offers is unmatched in Lucknow. They handled the legal vetting so I didn't have to worry about the paperwork."
+                        <p class="mt-4 font-bold text-brand-emerald uppercase tracking-tighter not-italic">— Vivek Singh</p>
+                    </div>
+                    <div class="p-8 bg-white border border-gray-100 rounded-2xl shadow-sm italic text-sm text-gray-600">
+                        "Most professional advisory I have ever worked with. They actually advised me against a property that looked good but had legal flaws."
+                        <p class="mt-4 font-bold text-brand-emerald uppercase tracking-tighter not-italic">— Dr. R. Verma</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section id="contact" class="py-24 px-6">
+        <div class="max-w-6xl mx-auto bg-brand-emerald text-white p-12 md:p-24 text-center rounded-premium shadow-2xl relative overflow-hidden">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_center,_var(--tw-gradient-stops))] from-white/5 to-transparent"></div>
+            <div class="relative z-10">
+                <h2 class="text-3xl md:text-6xl mb-8 font-semibold leading-tight">Elevate Your Real Estate <br>Strategy in Lucknow.</h2>
+                <div class="flex flex-col sm:flex-row gap-5 justify-center items-center mt-12">
+                    <a href="tel:+910000000000" class="w-full sm:w-auto bg-brand-gold text-white px-12 py-5 rounded-full font-bold text-[10px] uppercase tracking-widest btn-gold-glow flex items-center justify-center gap-3">
+                        <i data-lucide="phone" class="w-3.5 h-3.5"></i> Direct Advisory
+                    </a>
+                    <a href="https://wa.me/910000000000" class="w-full sm:w-auto bg-white text-brand-emerald px-12 py-5 rounded-full font-bold text-[10px] uppercase tracking-widest hover:bg-gray-100 flex items-center justify-center gap-3">
+                        <i data-lucide="message-circle" class="w-3.5 h-3.5"></i> WhatsApp Enquiry
+                    </a>
+                </div>
+                <p class="text-[10px] uppercase tracking-[0.4em] text-gray-400 mt-12">On-Call Support: 10 AM — 7 PM</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white pt-24 pb-12 px-6 border-t border-gray-50">
+        <div class="max-w-6xl mx-auto">
+            <div class="grid md:grid-cols-4 gap-12 mb-20">
+                <div class="md:col-span-2">
+                    <span class="text-2xl font-bold tracking-tighter text-brand-emerald uppercase">Tulsi Property</span>
+                    <p class="text-gray-400 text-[13px] mt-6 max-w-sm leading-relaxed">
+                        The definitive real estate advisory for Lucknow. Structured solutions for residential and commercial property investments.
+                    </p>
+                </div>
+                <div>
+                    <h4 class="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-6">HQ Lucknow</h4>
+                    <p class="text-[13px] text-gray-500 leading-relaxed">Gomti Nagar, <br>Lucknow, UP 226010</p>
+                </div>
+                <div>
+                    <h4 class="text-[10px] font-bold uppercase tracking-widest text-brand-gold mb-6">Contact</h4>
+                    <p class="text-[13px] text-gray-500 leading-relaxed">advisory@tulsiproperty.com <br>+91-XXXX-XXX-XXX</p>
+                </div>
+            </div>
+            <div class="flex flex-col md:flex-row justify-between items-center pt-8 border-t border-gray-50 gap-4">
+                <p class="text-[9px] uppercase tracking-[0.3em] text-gray-400">© 2024 Tulsi Property | All Rights Reserved</p>
+                <div class="flex gap-6">
+                    <a href="#" class="text-[9px] uppercase tracking-[0.3em] text-gray-400 hover:text-brand-gold transition-colors">Privacy</a>
+                    <a href="#" class="text-[9px] uppercase tracking-[0.3em] text-gray-400 hover:text-brand-gold transition-colors">Terms</a>
+                    <a href="#" class="text-[9px] uppercase tracking-[0.3em] text-gray-400 hover:text-brand-gold transition-colors">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
